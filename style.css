@@ -1,0 +1,396 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*nav*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 26px;
+    margin-left: 140px;
+    width: 1160.7px;
+    height: 40px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35.25px;
+}
+
+.links{
+    display: flex;
+    gap: 36px;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    height: 28px;
+    gap: 42px;
+}
+
+.Tw{
+    width: 19.69px;
+    height: 16px;
+}
+
+.fb{
+    width: 12px;
+    height: 28px;
+}
+
+.ig{
+    width: 30.02px;
+    height: 26.26px;
+}
+
+/*one*/
+
+#img-top{
+    width: 600px;
+    height: 600px;
+    left: 851px;
+    background-color: #Ffffff;
+    position: absolute;
+}
+
+.one{
+    width: 1180px;
+    height: 600px;
+    margin-top: 112px;
+    margin-left: 140px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.one p{
+    width: 612px;
+    margin-top: 51px;
+    margin-bottom: 51px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+h1{
+    font-family: 'Prociono', serif;
+    font-weight: 400;
+    font-size: 80px;
+    width: 612px;
+}
+
+button{
+    width: 262px;
+    height: 61px;
+    border-radius: 8px;
+    background-color: #8A20F4;
+    font-size: 24px;
+    font-family: 'Prociono', serif;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+/*two*/
+
+.two{
+    background-color: #3BAA6F;
+    height: 693px;
+    width: 1440px;
+    margin-top: 46px;
+    margin-bottom: 64px;
+    position: relative;
+}
+
+.rectangle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 273px;
+    height: 563px;
+    background-color: #D9D9D9;
+    position: absolute;
+    left: 1121px;
+}
+
+.rectangle img{
+    width: 67px;
+    height: 117px;
+}
+
+.container-two{
+    position: absolute;
+    width: 1268px;
+    height: 556px;
+    background-color: #ffffff;
+    top: 65px;
+    left: 52px;
+}
+
+.card5{
+    position: absolute;
+    top: 115px;
+    left: 237px;
+    z-index: 4;
+}
+
+.card10{
+    position: absolute;
+    top: 308px;
+    left: 315px;
+    z-index: 5;
+}
+
+.card8{
+    position: absolute;
+    top: 251px;
+    left: 106px;
+    z-index: 3;
+}
+
+.card9{
+    position: absolute;
+    top: 192px;
+    left: 526px;
+    z-index: 3;
+}
+
+/*Three*/
+
+.three{
+    background-color: #765CE1;
+    height: 693px;
+    width: 1440px;
+    margin-top: 46px;
+    margin-bottom: 64px;
+    position: relative;
+}
+
+.rectangle-three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 273px;
+    height: 563px;
+    background-color: #D9D9D9;
+    position: absolute;
+    left: 55px;
+}
+
+.rectangle-three img{
+    width: 239px;
+    height: 138px;
+}
+
+.container-three{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1268px;
+    height: 556px;
+    background-color: #ffffff;
+    top: 65px;
+    left: 122px;
+}
+
+.three p{
+    position: absolute;
+    z-index: 3;
+    top: 313px;
+    left: 90px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    text-align: center;
+    width: 638px;
+    height: 114px;
+    line-height: 37.5px;
+    margin-left: 430px;
+}
+
+.comilla{
+    position: absolute;
+    top: 190px;
+    left: 308px;
+    z-index: 3;
+}
+
+.line{
+    position: absolute;
+    left: 1060px;
+}
+
+.line2{
+    position: absolute;
+    left: 1110px; 
+}
+
+.comilla2{
+    position: absolute;
+    top: 384px;
+    left: 1050px; 
+}
+
+/*four*/
+
+.four{
+    background-color: #DC777B;
+    height: 693px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 47px;
+}
+
+.four img{
+    width: 1009px;
+    height: 663px;
+    top: 100px;
+    left: 133px;
+    position: absolute;
+    z-index: 2;
+}
+
+.container-four{
+    position: absolute;
+    width: 1268px;
+    height: 556px;
+    background-color: #ffffff;
+    top: 65px;
+    left: 52px;
+}
+
+.rectangle-four img{
+    position: absolute;
+    top: 223.5px;
+    left: 103px;
+    width: 67px;
+    height: 117px;
+}
+
+.rectangle-four{
+    width: 273px;
+    height: 563px;
+    background-color: #D9D9D9;
+    position: absolute;
+    left: 1121px;
+}
+
+/*footer*/
+
+footer{
+    width: 1440px;
+    height: 499px;
+}
+
+.top{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left{
+    width: 639px;
+    height: 244px;
+    display: flex;
+    flex-direction: column;
+    gap: 58px;
+    margin-top: 66.5px;
+}
+
+.left h3{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 47px;
+}
+
+.left p{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+span{
+    font-family: 'Heebo', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    background-color: #C64CFF;
+    color: #D9D9D9;
+    border-radius: 9px;
+    border: 1px;
+    width: 128px;
+    height: 45px;
+    padding: 10px;
+    margin-left: 22px;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 191px;
+    height: 119px;
+    gap: 10px
+}
+
+.right h3{
+    color: #C64CFF;
+    font-family: 'Heebo',sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.right p{
+    font-family: 'Heebo',sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+hr{
+    margin-top: 66.5px;
+}
+
+.nav-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-footer p{
+    font-family: 'Heebo',sans-serif;
+    font-size: 20px;
+    font-weight:500;
+    margin-top: 30px;
+}
+
+.TyC{
+    display: flex;
+    gap: 16px;
+}
+
+.icons-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    margin-top: 30px;
+}
